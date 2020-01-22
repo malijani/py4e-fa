@@ -1,0 +1,1330 @@
+
+
+
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      
+      
+      
+      
+        <meta name="lang:clipboard.copy" content="Copy to clipboard">
+      
+        <meta name="lang:clipboard.copied" content="Copied to clipboard">
+      
+        <meta name="lang:search.language" content="en">
+      
+        <meta name="lang:search.pipeline.stopwords" content="True">
+      
+        <meta name="lang:search.pipeline.trimmer" content="True">
+      
+        <meta name="lang:search.result.none" content="No matching documents">
+      
+        <meta name="lang:search.result.one" content="1 matching document">
+      
+        <meta name="lang:search.result.other" content="# matching documents">
+      
+        <meta name="lang:search.tokenizer" content="[\s\-]+">
+      
+      <link rel="shortcut icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-4.6.0">
+    
+    
+      
+        <title>محتوا - پایتون برای همه</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/application.1b62728e.css">
+      
+      
+    
+    
+      <script src="../assets/javascripts/modernizr.268332fc.js"></script>
+    
+    
+      
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
+        <style>body,input{font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono","Courier New",Courier,monospace}</style>
+      
+    
+    <link rel="stylesheet" href="../assets/fonts/material-icons.css">
+    
+    
+    
+      
+    
+    
+  </head>
+  
+    <body dir="rtl">
+  
+    <svg class="md-svg">
+      <defs>
+        
+        
+      </defs>
+    </svg>
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
+    
+      <a href="#_1" tabindex="1" class="md-skip">
+        Skip to content
+      </a>
+    
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid">
+    <div class="md-flex">
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <a href=".." title="پایتون برای همه" class="md-header-nav__button md-logo">
+          
+            <i class="md-icon"></i>
+          
+        </a>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <label class="md-icon md-icon--menu md-header-nav__button" for="__drawer"></label>
+      </div>
+      <div class="md-flex__cell md-flex__cell--stretch">
+        <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
+          
+            <span class="md-header-nav__topic">
+              پایتون برای همه
+            </span>
+            <span class="md-header-nav__topic">
+              
+                محتوا
+              
+            </span>
+          
+        </div>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        
+          <label class="md-icon md-icon--search md-header-nav__button" for="__search"></label>
+          
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query" data-md-state="active">
+      <label class="md-icon md-search__icon" for="__search"></label>
+      <button type="reset" class="md-icon md-search__icon" data-md-component="reset" tabindex="-1">
+        &#xE5CD;
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="result">
+          <div class="md-search-result__meta">
+            Type to start searching
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+        
+      </div>
+      
+    </div>
+  </nav>
+</header>
+    
+    <div class="md-container">
+      
+        
+      
+      
+      <main class="md-main" role="main">
+        <div class="md-main__inner md-grid" data-md-component="container">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" data-md-level="0">
+  <label class="md-nav__title md-nav__title--site" for="__drawer">
+    <a href=".." title="پایتون برای همه" class="md-nav__button md-logo">
+      
+        <i class="md-icon"></i>
+      
+    </a>
+    پایتون برای همه
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href=".." title="مقدمه" class="md-nav__link">
+      مقدمه
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        محتوا
+      </label>
+    
+    <a href="./" title="محتوا" class="md-nav__link md-nav__link--active">
+      محتوا
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    فصل اول :  چرا شما باید برنامه نویسی یاد بگیرید؟
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    فصل دوم : متغیّر ها، عبارات و دستورات
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    فصل سوم : دستور العمل های اجرایی شرطی
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    فصل چهارم : توابع
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    فصل پنجم : تکرار(حلقه)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_7" class="md-nav__link">
+    فصل ششم : رشته ها
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_8" class="md-nav__link">
+    فصل هفتم : فایل ها
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_9" class="md-nav__link">
+    فصل هشتم : لیست ها
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_10" class="md-nav__link">
+    فصل نهم : دیکشنری ها
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_11" class="md-nav__link">
+    فصل دهم : تاپل ها(چند تایی ها)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#regexregular-expression" class="md-nav__link">
+    فصل یازدهم : عبارات منظم(؟) (regex(regular expression))
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_12" class="md-nav__link">
+    فصل دوازدهم : برنامه های وابسته به شبکه
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#web-services" class="md-nav__link">
+    فصل سیزدهم : استفاده از خدمات وب(Web Services)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#oop" class="md-nav__link">
+    فصل چهاردهم : برنامه نویسی شئ گرا(oop)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#sql" class="md-nav__link">
+    فصل پانزدهم : استفاده از پایگاه داده و SQL
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_13" class="md-nav__link">
+    فصل شانزدهم : مصور سازی داده
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../chapter1/" title="چرا شما باید برنامه نویسی یاد بگیرید؟" class="md-nav__link">
+      چرا شما باید برنامه نویسی یاد بگیرید؟
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../chapter2/" title="متغیّر ها، عبارات و دستورات" class="md-nav__link">
+      متغیّر ها، عبارات و دستورات
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../chapter3/" title="دستور العمل های اجرایی شرطی" class="md-nav__link">
+      دستور العمل های اجرایی شرطی
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../chapter4/" title="توابع" class="md-nav__link">
+      توابع
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../chapter5/" title="تکرار(حلقه)" class="md-nav__link">
+      تکرار(حلقه)
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../chapter6/" title="رشته ها" class="md-nav__link">
+      رشته ها
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../chapter7/" title="فایل‌ها" class="md-nav__link">
+      فایل‌ها
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../chapter8/" title="لیست ها" class="md-nav__link">
+      لیست ها
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../chapter9/" title="دیکشنری ها" class="md-nav__link">
+      دیکشنری ها
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../chapter10/" title="تاپل ها(چند تایی ها)" class="md-nav__link">
+      تاپل ها(چند تایی ها)
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../chapter11/" title="عبارات منظم(؟) (regex(regular expression))" class="md-nav__link">
+      عبارات منظم(؟) (regex(regular expression))
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../chapter12/" title="برنامه های وابسته به شبکه" class="md-nav__link">
+      برنامه های وابسته به شبکه
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../chapter13/" title="استفاده از خدمات وب(Web Services)" class="md-nav__link">
+      استفاده از خدمات وب(Web Services)
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../chapter14/" title="برنامه نویسی شئ گرا(oop)" class="md-nav__link">
+      برنامه نویسی شئ گرا(oop)
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../chapter15/" title="استفاده از پایگاه داده‌ای و SQL" class="md-nav__link">
+      استفاده از پایگاه داده‌ای و SQL
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../chapter16/" title="مصور سازی داده" class="md-nav__link">
+      مصور سازی داده
+    </a>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    فصل اول :  چرا شما باید برنامه نویسی یاد بگیرید؟
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    فصل دوم : متغیّر ها، عبارات و دستورات
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    فصل سوم : دستور العمل های اجرایی شرطی
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    فصل چهارم : توابع
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    فصل پنجم : تکرار(حلقه)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_7" class="md-nav__link">
+    فصل ششم : رشته ها
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_8" class="md-nav__link">
+    فصل هفتم : فایل ها
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_9" class="md-nav__link">
+    فصل هشتم : لیست ها
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_10" class="md-nav__link">
+    فصل نهم : دیکشنری ها
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_11" class="md-nav__link">
+    فصل دهم : تاپل ها(چند تایی ها)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#regexregular-expression" class="md-nav__link">
+    فصل یازدهم : عبارات منظم(؟) (regex(regular expression))
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_12" class="md-nav__link">
+    فصل دوازدهم : برنامه های وابسته به شبکه
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#web-services" class="md-nav__link">
+    فصل سیزدهم : استفاده از خدمات وب(Web Services)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#oop" class="md-nav__link">
+    فصل چهاردهم : برنامه نویسی شئ گرا(oop)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#sql" class="md-nav__link">
+    فصل پانزدهم : استفاده از پایگاه داده و SQL
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_13" class="md-nav__link">
+    فصل شانزدهم : مصور سازی داده
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                
+                <h1 id="_1">محتوا</h1>
+<h2 id="_2">فصل اول : <a href="../chapter1/"> چرا شما باید برنامه نویسی یاد بگیرید؟</a></h2>
+<ol>
+<li>
+<p>خلاقیت و یادگیری</p>
+</li>
+<li>
+<p>معماری سخت افزار رایانه</p>
+</li>
+<li>
+<p>درک برنامه نویسی</p>
+</li>
+<li>
+<p>واژگان و جملات</p>
+</li>
+<li>
+<p>صحبت کردن با زبان پایتون</p>
+</li>
+<li>
+<p>واژه شناسی: مفسر و همگردان(کامپایلر)</p>
+</li>
+<li>
+<p>نوشتن یک برنامه</p>
+</li>
+<li>
+<p>برنامه چیست؟</p>
+</li>
+<li>
+<p>بلوک های ساختن یک برنامه</p>
+</li>
+<li>
+<p>چه چیزی ممکنه باعث خطا بشه؟</p>
+</li>
+<li>
+<p>اشکال زدائی</p>
+</li>
+<li>
+<p>راه یادگیری</p>
+</li>
+<li>
+<p>واژه نامه</p>
+</li>
+<li>
+<p>تمارین</p>
+</li>
+</ol>
+<h2 id="_3">فصل دوم : <a href="../chapter2/">متغیّر ها، عبارات و دستورات</a></h2>
+<ol>
+<li>
+<p>مقادیر و نوع داده ای</p>
+</li>
+<li>
+<p>متغیّر ها</p>
+</li>
+<li>
+<p>نامگذاری متغیّر ها و کلید واژه ها</p>
+</li>
+<li>
+<p>دستورات</p>
+</li>
+<li>
+<p>عملگر ها و عملوند ها</p>
+</li>
+<li>
+<p>حالات</p>
+</li>
+<li>
+<p>ترتیب عملگر ها</p>
+</li>
+<li>
+<p>عملگر قدرمطلق</p>
+</li>
+<li>
+<p>عملگر های رشته ای</p>
+</li>
+<li>
+<p>درخواست ورودی از کاربر</p>
+</li>
+<li>
+<p>نکات(توضیحات کد)</p>
+</li>
+<li>
+<p>انتخاب نام مناسب</p>
+</li>
+<li>
+<p>اشکال زدائی</p>
+</li>
+<li>
+<p>واژه نامه</p>
+</li>
+<li>
+<p>تمارین</p>
+</li>
+</ol>
+<h2 id="_4">فصل سوم : <a href="../chapter3/">دستور العمل های اجرایی شرطی</a></h2>
+<ol>
+<li>عبارات بولی</li>
+<li>عملگر های منطقی</li>
+<li>اجرای شرطی</li>
+<li>اجرای جایگزین</li>
+<li>زنجیره های شرطی</li>
+<li>شرط های تو در تو</li>
+<li>کنترل استثناء ها با استفاده از try, except</li>
+<li>ارزیابی اتصال کوتاه عبارات منطقی</li>
+<li>اشکال زدائی</li>
+<li>واژه نامه</li>
+<li>تمارین</li>
+</ol>
+<h2 id="_5">فصل چهارم : <a href="../chapter4/">توابع</a></h2>
+<ol>
+<li>
+<p>صدا زدن توابع</p>
+</li>
+<li>
+<p>توابع </p>
+</li>
+<li>
+<p>توابع تبدیل نوع داده</p>
+</li>
+<li>
+<p>توابع ریاضی</p>
+</li>
+<li>
+<p>اعداد تصادفی</p>
+</li>
+<li>
+<p>اضافه کردن توابع جدید</p>
+</li>
+<li>
+<p>تعاریف و استفاده ها</p>
+</li>
+<li>
+<p>جریان اجرای کد</p>
+</li>
+<li>
+<p>مؤلفه ها و نشانوند ها</p>
+</li>
+<li>
+<p>وابع مثمر و تهی</p>
+</li>
+<li>
+<p>چرا توابع؟</p>
+</li>
+<li>
+<p>اشکال زدائی</p>
+</li>
+<li>
+<p>واژه نامه</p>
+</li>
+<li>
+<p>تمارین</p>
+</li>
+</ol>
+<h2 id="_6">فصل پنجم : <a href="../chapter5/">تکرار(حلقه)</a></h2>
+<ol>
+<li>
+<p>روز رسانی متغیّر ها</p>
+</li>
+<li>
+<p>دستور while</p>
+</li>
+<li>
+<p>حلقه های نامتناهی</p>
+</li>
+<li>
+<p>رد کردن تکرار با continue</p>
+</li>
+<li>
+<p>تکرار قطع شونده با for</p>
+</li>
+<li>
+<p>الگوهای تکرار  </p>
+</li>
+<li>
+<p>حلقه های شمارش و اجماع </p>
+</li>
+<li>
+<p>حلقه های حداکثر و حداقل</p>
+</li>
+<li>
+<p>اشکال زدائی</p>
+</li>
+<li>
+<p>واژه نامه</p>
+</li>
+</ol>
+<h2 id="_7">فصل ششم : <a href="../chapter6/">رشته ها</a></h2>
+<ol>
+<li>
+<p>یک رشته یک زنجیره ترتیبی است</p>
+</li>
+<li>
+<p>پیدا کردن طول رشته با len</p>
+</li>
+<li>
+<p>پیمایش روی یک رشته با حلقه</p>
+</li>
+<li>
+<p>بریدن رشته ها</p>
+</li>
+<li>
+<p>رشته ها تغییر ناپذیرند</p>
+</li>
+<li>
+<p>تکرار و شمارش</p>
+</li>
+<li>
+<p>عملگر in</p>
+</li>
+<li>
+<p>مقایسه رشته ها</p>
+</li>
+<li>
+<p>متُد های گونه رشته</p>
+</li>
+<li>
+<p>تجزیه رشته ها</p>
+</li>
+<li>
+<p>عملگر format</p>
+</li>
+<li>
+<p>اشکال زدائی</p>
+</li>
+<li>
+<p>واژه نامه</p>
+</li>
+<li>
+<p>تمارین</p>
+</li>
+</ol>
+<h2 id="_8">فصل هفتم : <a href="../chapter7/">فایل ها</a></h2>
+<ol>
+<li>
+<p>ماندگاری</p>
+</li>
+<li>
+<p>بازکردن فایل ها</p>
+</li>
+<li>
+<p>فایل های متنی و خطوط</p>
+</li>
+<li>
+<p>خواندن فایل ها</p>
+</li>
+<li>
+<p>جستجو درون یک فایل</p>
+</li>
+<li>
+<p>گرفتن مسیر و نام فایل از کاربر</p>
+</li>
+<li>
+<p>استفاده از try , except و open</p>
+</li>
+<li>
+<p>نوشتن درون فایل ها</p>
+</li>
+<li>
+<p>اشکال زدائی</p>
+</li>
+<li>
+<p>واژه نامه</p>
+</li>
+<li>
+<p>تمارین</p>
+</li>
+</ol>
+<h2 id="_9">فصل هشتم : <a href="../chapter8/">لیست ها</a></h2>
+<ol>
+<li>
+<p>لیست یک متغیر ترتیبی است</p>
+</li>
+<li>
+<p>لیست ها تغییر پذیرند</p>
+</li>
+<li>
+<p>پیمایش یک لیست</p>
+</li>
+<li>
+<p>عملگر های لیست</p>
+</li>
+<li>
+<p>برش های لیست</p>
+</li>
+<li>
+<p>متُد های لیست</p>
+</li>
+<li>
+<p>حذف کردن عناصر</p>
+</li>
+<li>
+<p>لیست ها و توبع</p>
+</li>
+<li>
+<p>لیست ها و رشته ها</p>
+</li>
+<li>
+<p>تجزیه لیست ها</p>
+</li>
+<li>
+<p>اشیاء و مقادیر</p>
+</li>
+<li>
+<p>مقایسه برابری</p>
+</li>
+<li>
+<p>نشانوند های لیست</p>
+</li>
+<li>
+<p>اشکال زدائی</p>
+</li>
+<li>
+<p>واژه نامه</p>
+</li>
+<li>
+<p>تمارین</p>
+</li>
+</ol>
+<h2 id="_10">فصل نهم : <a href="../chapter9/">دیکشنری ها</a></h2>
+<ol>
+<li>
+<p>دیکشنری به عنوان یک مجموعه شمارشی</p>
+</li>
+<li>
+<p>دیکشنری و فایل ها</p>
+</li>
+<li>
+<p>حلقه ها و دیکشنری ها</p>
+</li>
+<li>
+<p>تجزیه متن پیشرفته</p>
+</li>
+<li>
+<p>اشکال زدائی</p>
+</li>
+<li>
+<p>واژه نامه</p>
+</li>
+<li>
+<p>تمارین</p>
+</li>
+</ol>
+<h2 id="_11">فصل دهم : <a href="../chapter10/">تاپل ها(چند تایی ها)</a></h2>
+<ol>
+<li>
+<p>تاپل ها تغییر پذیرند</p>
+</li>
+<li>
+<p>مقایسه تاپل ها</p>
+</li>
+<li>
+<p>تعیین تاپل ها</p>
+</li>
+<li>
+<p>دیکشنری ها و تاپل ها</p>
+</li>
+<li>
+<p>تعیین های چند گانه با دیکشنری ها</p>
+</li>
+<li>
+<p>بیشترین کلمات رایج</p>
+</li>
+<li>
+<p>استفاده از تاپل ها بعنوان کلید ها در دیکشنری ها</p>
+</li>
+<li>
+<p>توالی: رشته ها، لیست ها، و تاپل ها</p>
+</li>
+<li>
+<p>اشکال زدائی</p>
+</li>
+<li>
+<p>واژه نامه</p>
+</li>
+<li>
+<p>تمارین</p>
+</li>
+</ol>
+<h2 id="regexregular-expression">فصل یازدهم : <a href="../chapter11/">عبارات منظم(؟) (regex(regular expression))</a></h2>
+<ol>
+<li>
+<p>تطابق حروف در regex</p>
+</li>
+<li>
+<p>استخراج داده با استفاده از regex</p>
+</li>
+<li>
+<p>ترکیب، جستجو، و استخراج</p>
+</li>
+<li>
+<p>حروف گریز(escape character)</p>
+</li>
+<li>
+<p>خلاصه</p>
+</li>
+<li>
+<p>بخش جایزه ای برای کاربران Unix ، Gnu/Linux</p>
+</li>
+<li>
+<p>اشکال زدائی</p>
+</li>
+<li>
+<p>واژه نامه</p>
+</li>
+<li>
+<p>تمارین</p>
+</li>
+</ol>
+<h2 id="_12">فصل دوازدهم : <a href="../chapter12/">برنامه های وابسته به شبکه</a></h2>
+<ol>
+<li>
+<p>پروتکل نمایش سایت ها درون اینترنت (HTTP)</p>
+</li>
+<li>
+<p>ساده ترین مرورگر وب جهان</p>
+</li>
+<li>
+<p>دریافت یک تصویر از طریق HTTP</p>
+</li>
+<li>
+<p>دریافت صفحات وب با استفاده از urllib</p>
+</li>
+<li>
+<p>خواندن فایل های دودویی(binary) با استفاده از urllib</p>
+</li>
+<li>
+<p>تجزیه HTML و وب تراشی(؟)(web scraping)</p>
+</li>
+<li>
+<p>تجزیه HTML با استفاده از regex</p>
+</li>
+<li>
+<p>تجزیه HTML با استفاده از BeautifulSoup</p>
+</li>
+<li>
+<p>بخش جایزه برای کاربران Unix , Gnu/Linux</p>
+</li>
+<li>
+<p>واژه نامه</p>
+</li>
+<li>
+<p>تمارین</p>
+</li>
+</ol>
+<h2 id="web-services">فصل سیزدهم : <a href="../chapter13/">استفاده از خدمات وب(Web Services)</a></h2>
+<ol>
+<li>
+<p>زبان نشانه گذاری گسترش پذیر (XML)</p>
+</li>
+<li>
+<p>تجزیه XML</p>
+</li>
+<li>
+<p>حلقه زدن روی گره ها</p>
+</li>
+<li>
+<p>خلاصه نویسی شئ جاوااسکریپت (JSON)</p>
+</li>
+<li>
+<p>تجزیه JSON</p>
+</li>
+<li>
+<p>واسط برنامه نویسی نرم افزار کاربردی(API)</p>
+</li>
+<li>
+<p>امنیت و استفاده از API</p>
+</li>
+<li>
+<p>واژه نامه</p>
+</li>
+<li>
+<p>برنامه کاربردی ۱ : Google geocoding web service</p>
+</li>
+<li>
+<p>برنامه کاربردی۲    :    Twitter</p>
+</li>
+</ol>
+<h2 id="oop">فصل چهاردهم : <a href="../chapter14/">برنامه نویسی شئ گرا(oop)</a></h2>
+<ol>
+<li>
+<p>مدیریت برنامه های بزرگتر</p>
+</li>
+<li>
+<p>آماده سازی برای شروع</p>
+</li>
+<li>
+<p>استفاده از اشیاء</p>
+</li>
+<li>
+<p>شروع با برنامه ها</p>
+</li>
+<li>
+<p>چند پاره کردن یک مسئله</p>
+</li>
+<li>
+<p>اولین شئ پایتون ما!</p>
+</li>
+<li>
+<p>class ها به عنوان نوع داده ای</p>
+</li>
+<li>
+<p>چرخه حیات اشیاء</p>
+</li>
+<li>
+<p>نمونه های چند تایی</p>
+</li>
+<li>
+<p>ارث بری</p>
+</li>
+<li>
+<p>چکیده فصل</p>
+</li>
+<li>
+<p>واژه نامه</p>
+</li>
+</ol>
+<h2 id="sql">فصل پانزدهم : <a href="../chapter15/">استفاده از پایگاه داده و SQL</a></h2>
+<ol>
+<li>
+<p>پایگاه داده چیست؟</p>
+</li>
+<li>
+<p>مفاهیم پایگاه داده</p>
+</li>
+<li>
+<p>مرورگر پایگاه داده برای SQLite</p>
+</li>
+<li>
+<p>ساخت جداول پایگاه داده</p>
+</li>
+<li>
+<p>چکیده ای از زبان پرس و جوی ساختاری(؟)(SQL)</p>
+</li>
+<li>
+<p>بیرون کشیدن اطلاعات (spidering) از توییتر با استفاده از پایگاه داده</p>
+</li>
+<li>
+<p>نمونه سازی پایه ای داده</p>
+</li>
+<li>
+<p>برنامه نویسی با جداول چندتایی</p>
+</li>
+<li>
+<p>محدودیتهای جداول پایگاه داده</p>
+</li>
+<li>
+<p>دریافت و/یا ثبت کردن یک رکورد(record)</p>
+</li>
+<li>
+<p>ذخیره با رابطه ای دوستانه</p>
+</li>
+<li>
+<p>سه نوع کلید</p>
+</li>
+<li>
+<p>استفاده از JOIN برای دریافت داده</p>
+</li>
+<li>
+<p>چکیده</p>
+</li>
+<li>
+<p>اشکال زدائی</p>
+</li>
+<li>
+<p>واژه نامه</p>
+</li>
+</ol>
+<h2 id="_13">فصل شانزدهم : <a href="../chapter16/">مصور سازی داده</a></h2>
+<ol>
+<li>
+<p>ساخت یک نقشه گوگل با استفاده از داده های جغرافیایی</p>
+</li>
+<li>
+<p>مصور سازی شبکه ها و ورودی ها</p>
+</li>
+<li>
+<p>مصور سازی داده های ایمیل</p>
+</li>
+</ol>
+                
+                  
+                
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid">
+        
+          <a href=".." title="مقدمه" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
+            </div>
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Previous
+                </span>
+                مقدمه
+              </span>
+            </div>
+          </a>
+        
+        
+          <a href="../chapter1/" title="چرا شما باید برنامه نویسی یاد بگیرید؟" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Next
+                </span>
+                چرا شما باید برنامه نویسی یاد بگیرید؟
+              </span>
+            </div>
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        powered by
+        <a href="https://www.mkdocs.org">MkDocs</a>
+        and
+        <a href="https://squidfunk.github.io/mkdocs-material/">
+          Material for MkDocs</a>
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../assets/javascripts/application.808e90bb.js"></script>
+      
+      <script>app.initialize({version:"1.0.4",url:{base:".."}})</script>
+      
+    
+  </body>
+</html>
